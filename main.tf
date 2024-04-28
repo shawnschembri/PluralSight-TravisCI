@@ -33,7 +33,8 @@ resource "aws_vpc" "aws_vpc" {
   tags = {
     Name = "PLuralSightVpc-test2"
   }
-}
+
+
 /*
 locals {
   cisco_asav_name       = "CiscoASAv"  # Just for fun, name your ASAv anything you'd like!
